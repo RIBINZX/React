@@ -2,13 +2,16 @@ import React, { Component } from "react";
 
 class Welcome extends Component {
 
+    constructor(props){
+        super(props);
+    }
 
     render() {
 
         return (
             <div>
                 <p>
-                    class comnponent tsting
+                    {this.props.title}
                 </p>
             </div>
         )
@@ -17,4 +20,4 @@ class Welcome extends Component {
 
 }
 
-export default Welcome
+export default Welcome;
