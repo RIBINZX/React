@@ -1,12 +1,13 @@
 import './App.css';
-import Header from './Home';
-import Navbar from './Navbar';
-import Contact from './Contact';
-import Welcome from './Welcome';
-// import Counter from './Counter';
-import Demo from './Demo';
-import Demonew from './Demonew';
-import List from './List';
+import Header from './basics/Home';
+import Navbar from './basics/Navbar';
+import Contact from './basics/Contact';
+import Welcome from './basics/Welcome';
+// import Counter from './basics/Counter';
+import Demo from './basics/Demo';
+import Demonew from './basics/Demonew';
+import List from './basics/List';
+
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
       <Demonew/>   
       <hr/> 
       <List/>
-      <hr/>
+      <hr/>     
     </div>
   );
 }

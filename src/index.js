@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
-// import Counter from './Counter';
-// import reportWebVitals from './reportWebVitals';
-// import Counterclass from './Counterclass';
-import Newapp from './Newapp';
 
+// import App from './App';
+// import Newapp from './Newapp';
+import Main from './seclevel/Main';
 
 
   // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,11 +14,17 @@ import Newapp from './Newapp';
   //   </React.StrictMode>
   // );  
 
-const roots = ReactDOM.createRoot(document.getElementById('todolist'));
+// const roots = ReactDOM.createRoot(document.getElementById('todolist'));
+// roots.render(
+//   <React.StrictMode>
+//    <Newapp/>
+//   </React.StrictMode>
+// );
+
+const roots = ReactDOM.createRoot(document.getElementById('main'));
 roots.render(
   <React.StrictMode>
-   <Newapp/>
+   <Main/>
   </React.StrictMode>
 );
-
 
