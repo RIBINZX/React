@@ -4,7 +4,8 @@ import './index.css';
 
 // import App from './App';
 // import Newapp from './Newapp';
-import Main from './seclevel/Main';
+// import Main from './seclevel/Main';
+import Rootermain from './rooter/Rootermain';
 
 
   // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,10 +22,17 @@ import Main from './seclevel/Main';
 //   </React.StrictMode>
 // );
 
-const roots = ReactDOM.createRoot(document.getElementById('main'));
+// const roots = ReactDOM.createRoot(document.getElementById('main'));
+// roots.render(
+//   <React.StrictMode>
+//    <Main/>
+//   </React.StrictMode>
+// );
+
+const roots = ReactDOM.createRoot(document.getElementById('rooter'));
 roots.render(
   <React.StrictMode>
-   <Main/>
+   <Rootermain/>
   </React.StrictMode>
 );
 
